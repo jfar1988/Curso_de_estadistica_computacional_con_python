@@ -45,7 +45,7 @@ def main(distancias_de_caminata, numero_de_intentos, tipo_de_borracho):
     graficar(distancias_de_caminata, distancia_media_por_caminata)
 
 if __name__ == '__main__':
-    distancias_de_caminata = [10, 100, 1000, 10000]
-    numero_de_intentos = 1000000
+    distancias_de_caminata = [10, 100, 1000, 10000, 100000]
+    numero_de_intentos = 10000
 
     main(distancias_de_caminata, numero_de_intentos, BorrachoTradicional)
