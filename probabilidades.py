@@ -11,8 +11,8 @@ def tirar_dado(numero_de_tiros):
 def main(numero_de_tiros, numer_de_intentos):
     tiros = []
     for _ in range(numer_de_intentos):
-        secuancia_de_tiros = tirar_dado(numero_de_tiros)
-        tiros.append(secuancia_de_tiros)
+        secuencia_de_tiros = tirar_dado(numero_de_tiros)
+        tiros.append(secuencia_de_tiros)
     tiros_con_1 = 0
     for tiro in tiros:
         if 1 not in tiro:
