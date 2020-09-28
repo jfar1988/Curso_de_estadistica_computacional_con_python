@@ -15,7 +15,7 @@ def main(numero_de_tiros, numer_de_intentos):
         tiros.append(secuancia_de_tiros)
     tiros_con_1 = 0
     for tiro in tiros:
-        if 1 in tiro:
+        if 1 not in tiro:
             tiros_con_1 += 1
     probabilidad_tiros_con_1 = tiros_con_1/numer_de_intentos
     print(f'Probabilidad de obtener por lo menos un 1 en {numero_de_tiros} de tiros = {probabilidad_tiros_con_1}')
