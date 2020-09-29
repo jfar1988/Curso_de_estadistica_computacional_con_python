@@ -7,6 +7,7 @@ def tirar_dado(numero_de_tiros):
         secuencia_de_tiros.append(tiro)
 
     return secuencia_de_tiros
+    
 
 def main(numero_de_tiros, numer_de_intentos):
     tiros = []
